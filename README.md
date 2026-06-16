@@ -8,7 +8,7 @@ Currently, the Ascend platform already supports the deployment of GLM-5.2. Effic
 4. **High-Concurrency Scheduling with Prefill Delay** – In high-concurrency mixed-load scenarios, a prefill delay scheduling mechanism is introduced to smooth computation peaks and reduce resource contention between the Prefill and Decode phases.
 5. **Intelligent Caching and Index Optimization** – IndexCache is used to cache high-frequency expert paths and static routing tables, and methods such as Chunked Prefill and sparse index retrieval are employed to optimize long-context inference performance.
 6. **PD Separation and Prefix Caching** – By separating the Prefill and Decode stages and applying prefix caching, decode latency jitter is suppressed and throughput stability of online services is improved.
-7. **Quantization Scheme** – A hybrid W8A8/W4A8 quantization strategy is adopted. Through QuaRot preprocessing, Flex SmoothQuant smoothing, and SSZ weight quantization, expert weights are efficiently compressed while maintaining accuracy on critical paths.
+7. **Quantization Scheme** – A hybrid W8A8 quantization strategy is adopted. Through QuaRot preprocessing, Flex SmoothQuant smoothing, and SSZ weight quantization, expert weights are efficiently compressed while maintaining accuracy on critical paths.
 
 # vLLM
 
