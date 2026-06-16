@@ -20,4 +20,4 @@ This  [sgLang](https://github.com/sgl-project/sglang/blob/main/docs/platforms/as
 
 # xLLM
 
-This [xLLM]([xllm/docs/zh/getting\_started/quick\_start\_GLM5.md at preview/glm-5.2 · jd-opensource/xllm](https://github.com/jd-opensource/xllm/blob/preview/glm-5.2/docs/zh/getting_started/quick_start_GLM5.md)) document demonstrates how to deploy GLM-5.2 on xLLM. It shows the main verification steps of the model, including supported features, feature configuration, environment preparation, single-node and multi-node deployment, Prefill-Decode disaggregation, accuracy and performance evaluation.
+This [xLLM](https://github.com/jd-opensource/xllm/blob/preview/glm-5.2/docs/zh/getting_started/quick_start_GLM5.md) document demonstrates how to deploy GLM-5.2 on xLLM. It shows the main verification steps of the model, including supported features, feature configuration, environment preparation, single-node and multi-node deployment, Prefill-Decode disaggregation, accuracy and performance evaluation.
